@@ -1,13 +1,13 @@
-addpath('../DAISY/');   % DAISY feature extraction
-addpath('../SLIC-Superpixel-master/'); % SLIC superpixel algorithm
+addpath('./DAISY/');   % DAISY feature extraction
+addpath('./SLIC-Superpixel-master/'); % SLIC superpixel algorithm
 
 %% Loading RF Model
 warning('off', 'MATLAB:class:mustReturnObject');
 load('model/Mdl_25_spold2.mat');
 
-foreground_path ='..\Dataset_test\ISTD_small_A\';
-mask_path = '..\Dataset_test\ISTD_small_mask\';
-result_path = 'results_out\'; % Change to your preferred path
+foreground_path ='./Dataset_test/ISTD_small_A/';
+mask_path = './Dataset_test/ISTD_small_mask/';
+result_path = 'results_out/'; % Change to your preferred path
 
 image_search   = '*.png';
 foregrounds   = dir ([foreground_path, image_search]);

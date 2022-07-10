@@ -31,7 +31,7 @@ If the priovided mex executable cannot be used in your environment, please follo
 demo.m
 ```
 
-The demo code runs with a small subset of the [ISTD dataset](https://github.com/DeepInsight-PCALab/ST-CGAN)). 
+The demo code runs with a small subset of the [ISTD dataset](https://github.com/DeepInsight-PCALab/ST-CGAN). 
 
 > ### Results:
 Input image | Result (shadow removed) || Input image | Result (shadow removed)

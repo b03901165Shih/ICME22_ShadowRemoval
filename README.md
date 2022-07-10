@@ -12,7 +12,6 @@ This repository contains the Matlab demo code for the shadow removal algorithm d
 **Shadow Removal Through Learning-based Region Matching And Mapping Function Optimization**<br>
 Shih-Wei Hsieh, Chih-Hsiang Yang, Yi-Chang Lu<br>
 
-If you find this code useful in your research, please give a reference to the paper.
 
 ## Requirements
 This code is tested in **Windows Matlab 2020b** version. Other Matlab version may work but the result may be different.
@@ -59,10 +58,11 @@ Input image | Result (shadow removed) || Input image | Result (shadow removed)
 
 The shadow mask is produced using the code provided [here](https://github.com/hangong/deshadow). 
 
-The the full set of [ISTD masks](https://drive.google.com/file/d/1BRHgOYtt48fTpNhzmhqDekyjft1yagGd/view?usp=sharing) and [ISTD shadow removal results](https://drive.google.com/file/d/1Ix_GEZYKhz5FMo7gNT-MFAosTT-TJ0uY/view?usp=sharing) can be download from respective paths.
+The the full set of [shadow masks](https://drive.google.com/file/d/1BRHgOYtt48fTpNhzmhqDekyjft1yagGd/view?usp=sharing) and [shadow removal results](https://drive.google.com/file/d/1Ix_GEZYKhz5FMo7gNT-MFAosTT-TJ0uY/view?usp=sharing) for the ISTD dataset can be download from respective paths.
 
 
 ## Citation
+If you find this code useful in your research, please give a reference to the paper.
 
 ```
 @inproceedings{shih2022shadow,

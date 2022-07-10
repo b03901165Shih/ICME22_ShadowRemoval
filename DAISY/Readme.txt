@@ -37,6 +37,10 @@ purposes. For more details about the descriptor please read the paper.
 
 ---------------------------------------------------------------------------
 
+COMPILE:
+--------------
+mex mex_compute_all_descriptors.cpp OPTIMFLAGS="/openmp $OPTIMFLAGS" -output mex_compute_all_descriptors
+
 SOFTWARE
 
 A. QUICK START
@@ -53,9 +57,6 @@ out = display_descriptor(dzy,y,x);
 
 In the matrix 'out', each row is a normalized histogram ( by default ).
 
-20200418 Added By ShihWei
-Compile for yourself if needed:
-	mex mex_compute_all_descriptors.cpp OPTIMFLAGS="/openmp $OPTIMFLAGS" -output mex_compute_all_descriptors
 
 
 B. DETAILED DESCRIPTION

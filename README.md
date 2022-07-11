@@ -67,7 +67,7 @@ If you find this code useful in your research, please give a reference to the pa
 ```
 @inproceedings{shih2022shadow,
   title     = {Shadow Removal Through Learning-based Region Matching And Mapping Function Optimization},
-  author    = {Shih-Wei Hsieh, Chih-Hsiang Yang, Yi-Chang Lua},
+  author    = {Shih-Wei Hsieh, Chih-Hsiang Yang, Yi-Chang Lu},
   booktitle = {2022 IEEE International Conference on Multimedia and Expo (ICME)},
   year      = {2022},
   organization={IEEE}

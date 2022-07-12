@@ -58,7 +58,7 @@ Input image | Result (shadow removed) || Input image | Result (shadow removed)
 
 The shadow mask is produced using the code provided [here](https://github.com/hangong/deshadow). 
 
-The the full set of [shadow masks](https://drive.google.com/file/d/1BRHgOYtt48fTpNhzmhqDekyjft1yagGd/view?usp=sharing) and [shadow removal results](https://drive.google.com/file/d/1Ix_GEZYKhz5FMo7gNT-MFAosTT-TJ0uY/view?usp=sharing) for the ISTD dataset can be download from respective paths.
+The full set of [shadow masks](https://drive.google.com/file/d/1BRHgOYtt48fTpNhzmhqDekyjft1yagGd/view?usp=sharing) and [shadow removal results](https://drive.google.com/file/d/1Ix_GEZYKhz5FMo7gNT-MFAosTT-TJ0uY/view?usp=sharing) for the ISTD dataset can be download from respective paths.
 
 
 ## Citation

@@ -4,6 +4,7 @@
 
 We present a novel shadow removal where the inputs are a single natural image to be restored and its corresponding shadow mask. We first decompose the image by super-pixels and cluster them into several similar regions. Then we train a random forest model to predict matched pairs between shadow and non-shadow regions. By applying a distribution-based mapping function on the matched pairs, we can relight pixels in those shadow regions. An optimization framework based on half-quadratic splitting (HQS) method is also introduced to further improve the quality of the mapping process. We also design a post-processing stage with a boundary inpainting function to generate better visual results. Our experiments show that the proposed method can remove shadows effectively and produce high quality shadow-free images
 
+[Paper](https://www.computer.org/csdl/proceedings-article/icme/2022/09858933/1G9Eoesv3gc)
 
 ## Overview
 
@@ -65,12 +66,13 @@ The full set of [shadow masks](https://drive.google.com/file/d/1BRHgOYtt48fTpNhz
 If you find this code useful in your research, please give a reference to the paper.
 
 ```
-@inproceedings{shih2022shadow,
-  title     = {Shadow Removal Through Learning-based Region Matching And Mapping Function Optimization},
-  author    = {Shih-Wei Hsieh, Chih-Hsiang Yang, Yi-Chang Lu},
-  booktitle = {2022 IEEE International Conference on Multimedia and Expo (ICME)},
-  year      = {2022},
-  organization={IEEE}
+@inproceedings{hsieh2022shadow,
+  title={Shadow Removal Through Learning-Based Region Matching and Mapping Function Optimization},
+  author={Hsieh, Shih-Wei and Yang, Chih-Hsiang and Lu, Yi-Chang},
+  booktitle={2022 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={1--6},
+  year={2022},
+  organization={IEEE Computer Society}
 }
 ```
 

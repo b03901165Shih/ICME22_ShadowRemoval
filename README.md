@@ -4,11 +4,10 @@
 
 We present a novel shadow removal where the inputs are a single natural image to be restored and its corresponding shadow mask. We first decompose the image by super-pixels and cluster them into several similar regions. Then we train a random forest model to predict matched pairs between shadow and non-shadow regions. By applying a distribution-based mapping function on the matched pairs, we can relight pixels in those shadow regions. An optimization framework based on half-quadratic splitting (HQS) method is also introduced to further improve the quality of the mapping process. We also design a post-processing stage with a boundary inpainting function to generate better visual results. Our experiments show that the proposed method can remove shadows effectively and produce high quality shadow-free images
 
-[Paper](https://www.computer.org/csdl/proceedings-article/icme/2022/09858933/1G9Eoesv3gc)
 
 ## Overview
 
-This repository contains the Matlab demo code for the shadow removal algorithm described in the following ICME 2022 paper:
+This repository contains the Matlab demo code for the shadow removal algorithm described in the following [ICME 2022 paper](https://www.computer.org/csdl/proceedings-article/icme/2022/09858933/1G9Eoesv3gc):
 
 **Shadow Removal Through Learning-based Region Matching And Mapping Function Optimization**<br>
 Shih-Wei Hsieh, Chih-Hsiang Yang, Yi-Chang Lu<br>

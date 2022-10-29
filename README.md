@@ -7,7 +7,7 @@ We present a novel shadow removal where the inputs are a single natural image to
 
 ## Overview
 
-This repository contains the Matlab demo code for the shadow removal algorithm described in the following [ICME 2022 paper](https://www.computer.org/csdl/proceedings-article/icme/2022/09858933/1G9Eoesv3gc):
+This repository contains the Matlab demo code for the shadow removal algorithm described in the following [ICME 2022 paper](https://ieeexplore.ieee.org/abstract/document/9858933/):
 
 **Shadow Removal Through Learning-based Region Matching And Mapping Function Optimization**<br>
 Shih-Wei Hsieh, Chih-Hsiang Yang, Yi-Chang Lu<br>
